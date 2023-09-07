@@ -12,18 +12,32 @@
             <a href="#"><img src="imdbLogo.jpg" alt="imdbLogo"></a>
             <h3  class="left-nav">Menu</h3>
             <form action="#">
-                <input type="text">
+                <span class="search-dd">
+                    <ul>
+                        <li>
+                            <select name="categories" id="categories">
+                                <option value="1">All</option>
+                                <option value="2"></option>
+                                <option value="3"></option>
+                            </select>
+                            <span class="p-holder">
+                                <h4>Search IMDb</h4>
+                            </span>
+                        </li>
+                    </ul>
+                </span>
+                <input type="text" class="Search-bar">
             </form>
-            <ul>
-                <li>IMDbPro</li>
-                <li>Watchlist</li>
-                <li>Sign In</li>
+            <ul class="right-nav">
+                <li class="nav-link">IMDbPro</li>
+                <li class="nav-link">Watchlist</li>
+                <li class="nav-link">Sign In</li>
                 <li>
                     <Select>
                         <option value="1">EN</option>
-                        <option value="1">ES</option>
-                        <option value="1">FR</option>
-                        <option value="1">RU</option>
+                        <option value="2">ES</option>
+                        <option value="3">FR</option>
+                        <option value="4">RU</option>
                     </Select>
                 </li>
             </ul>
