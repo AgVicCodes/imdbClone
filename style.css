@@ -1,0 +1,16 @@
+body {
+    color: #3D3D3D;
+    background-color: #0f0f0f;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul {
+    float: right;
+}
+
+.logo-area {
+    display: flex;
+}
